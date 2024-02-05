@@ -480,28 +480,28 @@ section{
     background: var(--main-color);
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span{
-    width: 90%;
+    width: 97%;
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span{
-    width: 87%;
+    width: 95%;
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span{
-    width: 75%;
+    width: 81%;
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span{
-    width: 61%;
+    width: 65%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span{
     width: 93%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span{
-    width: 74%;
+    width: 94%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span{
-    width: 82%;
+    width: 86%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span{
-    width: 68%;
+    width: 72%;
 }
 
 /* Contact-form */
@@ -833,5 +833,8 @@ section:nth-child(odd) .animate.scroll,
         width: 0;
     }
 }
+/* 
+html{
+    overflow: hidden;
+} */
 
-   
