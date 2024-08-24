@@ -203,6 +203,9 @@ section{
     overflow: hidden;
     transition: .5s;
 }
+.home-zo a .fa-x-twitter{
+    font-size: 14px;
+}
 .home-zo a::before{
     content: '';
     position: absolute;
