@@ -7,8 +7,8 @@
     <title>Porfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <script src="https://kit.fontawesome.com/c3d950556c.js" crossorigin="anonymous"></script>
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://kit.fontawesome.com/c3d950556c.js" crossorigin="anonymous"></script> -->
 </head>
 <body>
     <header class="header">
@@ -21,6 +21,7 @@
         <a href="#about">About</a>
         <a href="#education">Education</a>
         <a href="#skills">Skills</a>
+        <a href="#project">Project</a>
         <a href="#contact">Contact</a>
         <span class="active-nav"></span>
         <span class="animate" style="--i:2;"></span>
@@ -39,7 +40,7 @@
                 I'm a Full Stack Developer with experience building websites and apps. I am motivated and passionate about programming and am constantly learning new technologies to improve my skills. My goal is to work on innovative projects and contribute significantly to the evolution of the web development industry.<span class="animate" style="--i:4;"></span></p>
             <div class="btn-box">
                 <a href="" class="btn">Hire me</a>
-                <a href="./CV/cv-hameth.pdf" class="btn" download="">Download cv</a>
+                <a href="./cv/cv-hameth.pdf" class="btn" download="">Download cv</a>
                 <span class="animate" style="--i:5;"></span>
             </div>
         </div>
@@ -57,13 +58,14 @@
     <section class="about" id="about">
         <h2 class="heading">About <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
         <div class="about-img">
-            <img src="../images/mouha.png" alt="">
+            <img src="../images/mouha.jpg" alt="">
             <span class="circle"></span>
             <span class="animate scroll" style="--i:2;"></span>
         </div>
             <div class="about-content">
                 <h3>Software developer! <span class="animate scroll" style="--i:3;"></span></h3>
-                <p>I'm a Full Stack Developer with experience building websites and apps. I'm passionate about programming and love taking on new challenges to improve my skills. I am motivated, creative and able to work independently or in a team. I am ready to contribute to exciting projects and provide innovative solutions.
+                
+                <p>Innovative Application and Web Developer: Passionate about technology, I specialize in creating powerful and intuitive applications and websites. Mastering various programming languages ​​and modern frameworks, I am able to design tailor-made solutions that meet the specific needs of users. I combine deep technical expertise with a keen sense of design to deliver optimized and engaging user experiences. My approach focused on quality and innovation allows me to transform ideas into robust and scalable digital products.
                     <span class="animate scroll" style="--i:4;"></span>
                 </p>
             </div>
@@ -76,7 +78,7 @@
     <section class="education" id="education">
         <h2 class="heading">My <span>journey</span> <span class="animate scroll" style="--i:1;"></span></h2>
         <div class="education-row">
-            <div class="education-column">
+            <div class="education-column" id="edu">
                 <h3 class="title">Education<span class="animate scroll" style="--i:2;"></span></h3>
                 <div class="education-box">
                     <div class="education-content">
@@ -118,7 +120,7 @@
                 <span class="animate scroll" style="--i:3;"></span>
             </div>
         </div>
-            <div class="education-column">
+            <div class="education-column" id="exp">
                 <h3 class="title">Experience<span class="animate scroll" style="--i:4;"></span></h3>
                 <div class="education-box">
                     <div class="education-content">
@@ -247,6 +249,86 @@
     </div>
 </div>
 </section> 
+
+<!-- Project section -->
+ <section id="project" class="project">
+    <div class="container">
+        <h2 class="heading">My <span>Project</span><span class="animate scroll" style="--i:1;"></span></h2>
+         
+        <div class="my-project">
+          <div class="list-1">
+            <div class="list-project">
+                <img src="./images/wt.png" alt="">
+                <h4>Weather App</h4>
+                <br>
+                <p>a modern and intuitive weather application offering precise and personalized forecasts.</p>
+                <div class="detail">
+                    <a href="https://meteo-mhd.vercel.app/" class="btn">View</a>
+                    <a href="https://github.com/HamethDiouf/Wheather_project" class="btn">Source</a>
+                </div>
+            </div>
+
+            <div class="list-project">
+                <img src="./images/todo.png" alt="">
+                <h4>Todo-List</h4>
+                <br>
+                <p>The app will offer an intuitive interface to add, manage and prioritize tasks, with personalized reminders and the ability to track progress in real time.</p>
+                <div class="detail">
+                    <a href="https://todo-list-mhd.vercel.app/" class="btn">View</a>
+                    <a href="https://github.com/HamethDiouf/final-project_Todo-List" class="btn">Source</a>
+                </div>
+            </div>
+
+            <div class="list-project">
+                <img src="./images/calculator.png" alt="">
+               <h4>Calculator</h4>
+               <br>
+               <p>This calculator will be able to perform basic arithmetic operations with an intuitive and responsive user interface.</p>
+               <div class="detail">
+                <a href="https://calculator-mhd.vercel.app/" class="btn">View</a>
+                <a href="https://github.com/HamethDiouf/calculator_app" class="btn">Source</a>
+            </div>
+            </div>
+
+        </div>
+          <div class="list-2">
+            <div class="list-project">
+                <img src="./images/quiz.png" alt="">
+                <h4>Quizz</h4>
+                <br>
+                <p>This general knowledge quiz is designed to stimulate your intellect and provide you with an exciting educational experience.</p>
+                <div class="detail">
+                    <a href="https://quizz-mhd.vercel.app/" class="btn">View</a>
+                    <a href="https://github.com/HamethDiouf/Quizz_Js" class="btn">Source</a>
+                </div>
+            </div>
+
+            <div class="list-project">
+                <img src="./images/frm.png" alt="">
+                <h4>Validaton Formulaire</h4>
+                <br>
+                <p>The site ensures that required fields are filled out correctly, detects common errors, and ensures compliance with required formats.</p>
+                <div class="detail valide">
+                    <a href="" class="btn">View</a>
+                    <a href="https://github.com/HamethDiouf/Formulaire" class="btn">Source</a>
+                </div>
+
+            </div>
+            <div class="list-project">
+                <img src="./images/porfolio.png" alt="">
+                <h4>My porfolio</h4>
+                <br>
+                <p> ce portfolio illustre notre expertise et notre créativité dans des domaines tels que le   design, le développement, et bien plus encore. </p>
+                <div class="detail">
+                    <a href="https://porfolio-mhd.vercel.app/" class="btn">View</a>
+                    <a href="https://github.com/HamethDiouf/my-porfolio" class="btn">Source</a>
+                </div>
+            </div>
+          </div>
+    </div>
+</div>
+ </section>
+
 <!-- Contact section Design -->
 <section class="contact" id="contact">
     <h2 class="heading">Contact <span>Me!</span> <span class="animate scroll" style="--i:1;"></span></h2>

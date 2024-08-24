@@ -179,6 +179,7 @@ section{
 .btn-box .btn:hover::before{
     width: 100%;
 }
+
 .home-zo{
     position: absolute;
     bottom: 4rem;
@@ -527,14 +528,125 @@ section{
 .skills-column:nth-child(2) .skills-content .progress:nth-child(8) .bar span{
     width: 87%;
 }
-
-
+ /* project */
+ .project{
+    color: #fff;
+    min-height: auto;
+    padding-bottom: 7rem;
+}
+    
+.project h2{
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ 
+.project span{
+    color: var(--main-color);
+}
+.my-project{
+    display: block;
+}
+.list-project{
+    margin: 25px;
+    /* background: var(--second-bg-color); */
+    box-shadow: 2px 2px 10px var(--second-bg-color);
+    width: 30%;
+    height: 48rem;
+    border-radius: 10px;
+}
+.list-project:hover{
+    box-shadow: 0 0 8px var(--main-color);
+}
+.list-project img{
+    width: 80%;
+    height: 20rem;
+    margin-left: 3.5rem;
+    margin-top: 3rem;
+}
+.list-project h4{
+    margin-left: 3.5rem;;
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+.list-project p{
+    margin-left: 3.5rem;
+    font-size: 16px;
+    width: 80%;
+}
+.list-1, .list-2{
+    display: flex;
+}
+.detail{
+    width: 80%;
+    margin-left: 3.5em;
+    margin-top: 2.5rem;
+}
+/* detail */
+.detail{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 22rem;
+    height: 5rem;
+} 
+.detail .btn{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 100%;
+    background: var(--main-color);
+    border: .2rem solid var(--main-color);
+    border-radius: .8rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    color:var(--bg-color) ;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+.detail .btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--bg-color);
+    z-index: -1;
+    transition: .5s
+} 
+.detail .btn:nth-child(2){
+    background: transparent;
+    color: var(--main-color);
+}
+.btn-box .btn:nth-child(2)::before, 
+.detail .btn:nth-child(2)::before{
+    background: var(--main-color);
+}
+.detail .btn:nth-child(2):hover{
+    color: var(--bg-color);
+}
+.detail .btn:hover{
+    background: var(--main-color);
+    color: var(--main-color);
+}
+.detail .btn:hover::before{
+    width: 100%;
+}
+.detail .btn:nth-child(2){
+    transform: translateX(7rem);
+}
 
 /* Contact-form */
 .contact{
     color: #fff;
     min-height: auto;
     padding-bottom: 7rem;
+    background: var(--second-bg-color);
 }
 .contact h2{
     display: inline-block;
@@ -581,7 +693,7 @@ section{
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     border-radius: .6rem;
     z-index: -1;
     transition: .5s;
@@ -609,9 +721,11 @@ section{
     display: flex;
     color: #fff;
     align-items: center;
-    flex-wrap: wrap;padding: 2rem 9%;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
     background: var(--second-bg-color);
     justify-content: space-between;
+    box-shadow: 1px 0 15px var(--bg-color);
 }
 .footer-text,
 .footer-icon{
@@ -619,7 +733,7 @@ section{
 
 }
 .footer-text p{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 .footer-icon a{
     position: relative;
@@ -658,6 +772,7 @@ section{
 #menu-icon{
     display: none;
 }
+
 /* Animation reload and Scroll */
 .animate{
     position: absolute;
@@ -684,23 +799,82 @@ section{
     animation: none;
 }
 section:nth-child(odd) .animate.scroll,
-.footer .animate.scroll{
+.footer .animate.scroll, 
+.project .animate.scroll{
     background: var(--second-bg-color);
 }
 .about.show-animate .animate.scroll,
 .education.show-animate .animate.scroll,
 .skills.show-animate .animate.scroll,
 .contact.show-animate .animate.scroll,
-.footer.show-animate .animate.scroll{
+.footer.show-animate .animate.scroll,
+.project .animate.scroll
+{
     transition-delay: calc(.3s * var(--i));
     width: 0;
 }
+
 /* Responsive-menu */
 @media(max-width: 1200px) {
     html{
         font-size: 55%;
     }
+    .project{
+        display: block;
+        align-items: center;
+        padding: 0 9%;
+    }
+    .list-1, .list-2{
+        display: flow-root;
+    }
+    .list-project{
+        width: 50rem;
+        height: 55rem;
+        margin-left: 28rem;
+    }
+    .list-project .btn:nth-child(2){
+        transform: translateX(18rem);
+    }
+    .list-project .btn{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .project{
+        margin-top: 7rem;
+    }
 }
+@media(max-width: 1500px) {
+    .list-project .btn:nth-child(2){
+        transform: translateX(2rem);
+    }
+    .valide .btn {
+        margin-top: -2.4rem;
+    }
+    
+}
+@media(max-width: 1300px) {
+    .list-project{
+        /* width: 60rem; */
+        height: 55rem;
+    }
+    .list-project .btn:nth-child(2){
+        transform: translateX(.9rem);
+    }
+    
+    .list-project:nth-child(2) .btn{
+        margin-top: -1.3rem;
+    }
+    .list-project .btn{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+@media(max-width:1210px) {
+    .list-project .btn:nth-child(2){
+        transform: translateX(18.9rem);
+    }
+}
+
 @media(max-width: 991px) {
     .header {
         padding: 2rem 4%;
@@ -713,13 +887,56 @@ section:nth-child(odd) .animate.scroll,
     }  
     .footer{
         padding: 2rem 4%;
-    }   
+    }  
+    .project{
+        display: block;
+        align-items: center;
+        padding: 0 9%;
+    }
+    .list-1, .list-2{
+        display: flow-root;
+    }
+    .list-project{
+        width: 50rem;
+        height: 55rem;
+        margin-left: 15rem;
+    } 
+    .list-project .btn:nth-child(2){
+        transform: translateX(19rem);
+    }
+    .list-project .btn{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+   
 }
 @media(max-width: 850px){
     .animate.home-img{
         width: 55%;
     }
+    .project{
+        display: block;
+        align-items: center;
+        padding: 0 9%;
+    }
+    .list-1, .list-2{
+        display: flow-root;
+    }
+    .list-project{
+        width: 45rem;
+        height: 50rem;
+        margin-left: 12rem;
+    }
+    .list-project .btn:nth-child(2){
+        transform: translateX(14.5rem);
+    }
+    .list-project .btn{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
 }
+
 @media(max-width: 768px) {
     .header {
         background: var(--bg-color);
@@ -781,7 +998,7 @@ section:nth-child(odd) .animate.scroll,
         opacity: .6;
     }
     .about-content p{
-        width: 60rem;
+        width: 50rem;
     }
     .skills{
         align-items: center;
@@ -791,14 +1008,95 @@ section:nth-child(odd) .animate.scroll,
         width: 35rem;
         margin-left: -3rem; 
     }
+
+    .project{
+        display: block;
+        align-items: center;
+        padding: 0 9%;
+    }
+    .list-1, .list-2{
+        display: flow-root;
+    }
+    .list-project{
+        width: 45rem;
+        height: 50rem;
+        margin-left: 10rem;
+    }
+    .list-project .btn:nth-child(2){
+        transform: translateX(14.5rem);
+    }
+    .list-project .btn{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    #edu{
+        margin-left: 11rem;
+    }
+    #edu .education-content{
+        width: 50rem;
+    }
+    #exp{
+        margin-top: 73rem;
+        margin-left: -64rem;
+    }
+  
+    #exp .education-content{
+        width: 50rem;
+
+    }
 }
-@media(max-width:600px){.home{
+
+@media(max-width: 710px) {
+    .list-project{
+        width: 45rem;
+        height: 50rem;
+        margin-left: 8rem;
+    }
+    .list-project .btn:nth-child(2){
+        transform: translateX(14.5rem);
+    }
+    .list-project .btn{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+@media(max-width:670px) {
+    #edu {
+        margin-left: 6rem;
+    }
+}
+@media(max-width:600px){
+    .home{
     display: flex;
     align-items: center;
     padding: 0 9%;
     background: url('../images/met.png') no-repeat;
     background-position: right; 
-    margin-right: 1rem;
+}
+.list-project{
+    margin-left: 5rem;
+    width: 40rem;
+}
+.list-project .btn:nth-child(2){
+    transform: translateX(10rem);
+}
+.list-project .btn{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#edu{
+    margin-left: 6.5rem;
+}
+#edu .education-content{
+    width: 45rem;
+}
+#exp{
+    margin-top: 78rem;
+    margin-left: -56rem;
+}
+
+#exp .education-content{
+    width: 45rem;
 }
 
 }
@@ -818,8 +1116,9 @@ section:nth-child(odd) .animate.scroll,
         height: 38px;
     }
     .about-content p{
-        width: 60rem;
+        width: 50rem;
     }
+    
 }
 @media (max-width: 510px) {
     .home-content h1{
@@ -847,19 +1146,21 @@ section:nth-child(odd) .animate.scroll,
         margin-right: 1rem;
     }
     .about-content p{
-        width: 60rem;
+        width: 50rem;
     }
     .skills{
         align-items: center;
         align-content: center;
     }
-    .skills-box{
+    .skills-box
+    {
         width: 35rem;
         margin-left: -3rem; 
     }
+    
 }
 @media (max-width: 500px) {
-    .home{
+    .home, .project{
         justify-content: center;
     }
     .home-content{
@@ -871,6 +1172,9 @@ section:nth-child(odd) .animate.scroll,
     .home-content h1{
         font-size: 5rem;
     }
+    .home p{
+        width: 50rem;
+    }
     .home{
         display: flex;
         align-items: center;
@@ -879,8 +1183,29 @@ section:nth-child(odd) .animate.scroll,
         background-position: right; 
         margin-right: 1rem;
     }
+    .project{
+        display: block;
+        align-items: center;
+        padding: 0 9%;
+        /* margin-right: 1rem; */
+    }
+    .list-1, .list-2{
+        display: flow-root;
+    }
+    .list-project{
+        width: 43rem;
+        height: 53rem;
+        margin-left: 3rem;
+    }
+    .list-project .btn:nth-child(2){
+        transform: translateX(12rem);
+    }
+    .list-project .btn{
+        margin-top: 2rem;
+    }
+   
     .about-content p{
-        width: 60rem;
+        width: 50rem;
     }
     .skills{
         align-items: center;
@@ -889,6 +1214,21 @@ section:nth-child(odd) .animate.scroll,
     .skills-box{
         width: 35rem;
         margin-left: -3rem; 
+    }
+    #edu{
+        margin-left: 4rem;
+    }
+    #edu .education-content{
+        width: 45rem;
+    }
+    #exp{
+        margin-top: 78rem;
+        margin-left: -54rem;
+    }
+  
+    #exp .education-content{
+        width: 45rem;
+
     }
 }
 /* Keyframe animation */
