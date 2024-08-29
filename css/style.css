@@ -1032,21 +1032,6 @@ section:nth-child(odd) .animate.scroll,
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
-    #edu{
-        margin-left: 11rem;
-    }
-    #edu .education-content{
-        width: 50rem;
-    }
-    #exp{
-        margin-top: 73rem;
-        margin-left: -64rem;
-    }
-  
-    #exp .education-content{
-        width: 50rem;
-
-    }
 }
 
 @media(max-width: 710px) {
@@ -1063,11 +1048,7 @@ section:nth-child(odd) .animate.scroll,
         margin-bottom: 2rem;
     }
 }
-@media(max-width:670px) {
-    #edu {
-        margin-left: 6rem;
-    }
-}
+
 @media(max-width:600px){
     .home{
     display: flex;
@@ -1086,20 +1067,6 @@ section:nth-child(odd) .animate.scroll,
 .list-project .btn{
     margin-top: 1rem;
     margin-bottom: 1rem;
-}
-#edu{
-    margin-left: 6.5rem;
-}
-#edu .education-content{
-    width: 45rem;
-}
-#exp{
-    margin-top: 78rem;
-    margin-left: -56rem;
-}
-
-#exp .education-content{
-    width: 45rem;
 }
 
 }
@@ -1176,7 +1143,7 @@ section:nth-child(odd) .animate.scroll,
         font-size: 5rem;
     }
     .home p{
-        width: 50rem;
+        width: 40rem;
     }
     .home{
         display: flex;
@@ -1208,7 +1175,7 @@ section:nth-child(odd) .animate.scroll,
     }
    
     .about-content p{
-        width: 50rem;
+        width: 44rem;
     }
     .skills{
         align-items: center;
@@ -1218,20 +1185,28 @@ section:nth-child(odd) .animate.scroll,
         width: 35rem;
         margin-left: -3rem; 
     }
-    #edu{
-        margin-left: 4rem;
+    .education{
+        display: flow-root;
     }
+   
     #edu .education-content{
-        width: 45rem;
+        width: 40rem;
     }
     #exp{
-        margin-top: 78rem;
-        margin-left: -54rem;
+        margin-top: 80rem;
+        margin-left: -50rem;
+         align-content: center; 
+        justify-content: center;
+    } 
+    #edu{
+        margin-left: 7rem;
     }
   
     #exp .education-content{
-        width: 45rem;
-
+        width: 40rem;
+    }
+    .education .heading{
+        margin-left: 15rem;
     }
 }
 /* Keyframe animation */
