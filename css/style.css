@@ -1255,7 +1255,7 @@ section:nth-child(odd) .animate.scroll,
     }
    
     .about-content p{
-        width: 44rem;
+        width: 40rem;
     }
     .skills{
         align-items: center;
@@ -1265,10 +1265,13 @@ section:nth-child(odd) .animate.scroll,
     #edu .education-content, #exp .education-content{
         width: 45rem;
     }
-    #edu .education-content, #edu h3.title{
-        margin-left: -5rem;
+    #edu .education-content{
+        margin-left: -10rem;
     }
   
+    #edu h3.title{
+        margin-left: -2rem;
+    }
 
     /* #edu .education-box{
         margin-left: -4rem;
