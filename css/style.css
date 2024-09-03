@@ -1265,16 +1265,19 @@ section:nth-child(odd) .animate.scroll,
     #edu .education-content, #exp .education-content{
         width: 45rem;
     }
-    #edu .education-content{
+    #edu .education-content, #edu h3.title{
         margin-left: -4rem;
     }
   
-    #edu h3.title{
+    /* #edu h3.title{
+        margin-left: -2rem;
+    } */
+
+    .education h2.heading{
         margin-left: -2rem;
     }
-
     #exp .education-content{
-        margin-left: 1rem;
+        margin-left: 2rem;
     }
 }
 
