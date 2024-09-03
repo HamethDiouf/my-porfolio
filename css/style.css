@@ -1222,7 +1222,7 @@ section:nth-child(odd) .animate.scroll,
         margin-left: -2rem;
     }
     .skills-content{
-        width: 15rem;
+        width: 30rem;
     }
 
     .home, .project{
@@ -1248,13 +1248,13 @@ section:nth-child(odd) .animate.scroll,
         background-position: right; 
         margin-right: 1rem;
     }
-    .project{
+    /* .project{
         display: block;
         align-items: center;
         padding: 0 9%;
         /* margin-right: 1rem; */
-    }
-    .list-1, .list-2{
+    } */
+    /* .list-1, .list-2{
         display: flow-root;
     }
     .list-project{
@@ -1267,7 +1267,7 @@ section:nth-child(odd) .animate.scroll,
     }
     .list-project .btn{
         margin-top: 2rem;
-    }
+    } */
    
     .about-content p{
         width: 44rem;
@@ -1276,7 +1276,7 @@ section:nth-child(odd) .animate.scroll,
         align-items: center;
         align-content: center;
     }
-    .skills-box{
+    /* .skills-box{
         width: 45rem;
         margin-left: -9rem; 
     }
@@ -1286,9 +1286,9 @@ section:nth-child(odd) .animate.scroll,
     .education{
         display: flow-root;
         margin-left: -2rem;
-    }
+    } */
    
-    #edu .education-content{
+    /* #edu .education-content{
         width: 45rem;
     }
     #exp{
@@ -1296,9 +1296,9 @@ section:nth-child(odd) .animate.scroll,
         margin-left: -53rem;
         align-content: center; 
         justify-content: center;
-    } 
+    }  */
     #edu{
-        margin-left: 7rem;
+        margin-left: 5rem;
     }
   
     #exp .education-content{
