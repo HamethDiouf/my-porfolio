@@ -1266,7 +1266,7 @@ section:nth-child(odd) .animate.scroll,
         width: 45rem;
     }
     #edu .education-content{
-        margin-left: -10rem;
+        margin-left: -7rem;
     }
   
     #edu h3.title{
@@ -1274,7 +1274,7 @@ section:nth-child(odd) .animate.scroll,
     }
 
     #exp .education-content{
-        margin-left: 3rem;
+        margin-left: 1rem;
     }
 }
 
