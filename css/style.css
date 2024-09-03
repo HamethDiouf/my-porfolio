@@ -1209,6 +1209,11 @@ section:nth-child(odd) .animate.scroll,
         margin-left: 15rem;
     }
 }
+@media(max-width: 400px) {
+    .list-project{
+        margin-left: -2rem;
+    }
+}
 /* Keyframe animation */
 @keyframes homeCursorText {
     0%,
