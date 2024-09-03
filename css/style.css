@@ -1182,20 +1182,24 @@ section:nth-child(odd) .animate.scroll,
         align-content: center;
     }
     .skills-box{
-        width: 35rem;
-        margin-left: -3rem; 
+        width: 45rem;
+        margin-left: -9rem; 
+    }
+    .skills-column h3.title {
+        margin-left: -9rem;
     }
     .education{
         display: flow-root;
+        margin-left: -2rem;
     }
    
     #edu .education-content{
-        width: 40rem;
+        width: 45rem;
     }
     #exp{
         margin-top: 80rem;
-        margin-left: -50rem;
-         align-content: center; 
+        margin-left: -53rem;
+        align-content: center; 
         justify-content: center;
     } 
     #edu{
@@ -1203,15 +1207,22 @@ section:nth-child(odd) .animate.scroll,
     }
   
     #exp .education-content{
-        width: 40rem;
+        width: 45rem;
+        margin-left: -2rem;
     }
     .education .heading{
-        margin-left: 15rem;
+        margin-left: 18rem;
+    }
+    #exp-tl{
+        margin-left: -.1rem;
     }
 }
 @media(max-width: 400px) {
     .list-project{
         margin-left: -2rem;
+    }
+    .skills-content{
+        width: 105rem;
     }
 }
 /* Keyframe animation */
