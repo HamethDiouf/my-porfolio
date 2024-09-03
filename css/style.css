@@ -1265,12 +1265,15 @@ section:nth-child(odd) .animate.scroll,
     #edu{
         margin-left: 5rem;
     }
+    #exp{
+        margin-left: 2rem;
+    }
   
     #exp .education-content{
         width: 45rem;
     }
     .education-column{
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
     .education .heading{
         margin-left: 18rem;
