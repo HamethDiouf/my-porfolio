@@ -1273,9 +1273,9 @@ section:nth-child(odd) .animate.scroll,
         margin-left: -2rem;
     }
 
-    /* #edu .education-box{
-        margin-left: -4rem;
-    } */
+    #exp .education-content{
+        margin-left: 3rem;
+    }
 }
 
 /* Keyframe animation */
