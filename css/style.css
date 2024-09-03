@@ -1223,11 +1223,11 @@ section:nth-child(odd) .animate.scroll,
         margin-left: -2rem;
     }
     .skills-column h3.title{
-        margin-left: -20rem;
+        margin-left: -17rem;
     }
     .skills-box{
         width: 40rem;
-        margin-left: -20rem;
+        margin-left: -17rem;
     }
 
     .home, .project{
