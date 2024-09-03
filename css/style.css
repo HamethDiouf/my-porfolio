@@ -1218,12 +1218,12 @@ section:nth-child(odd) .animate.scroll,
     }
 }
 @media(max-width: 400px) {
-    .list-project{
+    /* .list-project{
         margin-left: -2rem;
-    }
-    .skills-content{
+    } */
+    /* .skills-content{
         width: 30rem;
-    }
+    } */
 
     .home, .project{
         justify-content: center;
@@ -1253,7 +1253,7 @@ section:nth-child(odd) .animate.scroll,
         align-items: center;
         padding: 0 9%;
         /* margin-right: 1rem; */
-    } */
+    /* } */ */
     /* .list-1, .list-2{
         display: flow-root;
     }
@@ -1312,6 +1312,7 @@ section:nth-child(odd) .animate.scroll,
         margin-left: -.1rem;
     }
 }
+
 /* Keyframe animation */
 @keyframes homeCursorText {
     0%,
