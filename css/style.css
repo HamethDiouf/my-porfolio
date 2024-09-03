@@ -1263,12 +1263,11 @@ section:nth-child(odd) .animate.scroll,
     }
    
     #exp .education-content{
-        width: 40rem;
         /* margin-left: 2rem; */
     }
 
     #edu .education-box{
-        margin-left: -2rem;
+        margin-left: -4rem;
     }
 }
 
