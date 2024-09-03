@@ -1224,7 +1224,7 @@ section:nth-child(odd) .animate.scroll,
     }
     .skills-box{
         width: 40rem;
-        /* margin-left: -7rem; */
+        margin-left: -15rem;
     }
     /* .skills-content, .skills-column h3.title {
         
