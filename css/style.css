@@ -1263,11 +1263,9 @@ section:nth-child(odd) .animate.scroll,
     }
    
     #edu{
-        margin-left: 5rem;
+        margin-left: 4rem;
     }
-    #exp{
-        margin-left: 2rem;
-    }
+    #exp{}
   
     #exp .education-content{
         width: 45rem;
