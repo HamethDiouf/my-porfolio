@@ -1262,23 +1262,14 @@ section:nth-child(odd) .animate.scroll,
         align-content: center;
     }
    
-    /* #exp .education-content{
-        width: 45rem;
-        margin-left: 5rem;
-    }
-    .education-column{
-        margin-left: 1rem;
-    }
-    .education .heading{
-        margin-left: 18rem;
-    }
-    #exp-tl{
-        margin-left: -.1rem;
+    #exp .education-content{
+        width: 40rem;
+        /* margin-left: 2rem; */
     }
 
-    .education-box{
+    #edu .education-box{
         margin-left: -2rem;
-    } */
+    }
 }
 
 /* Keyframe animation */
