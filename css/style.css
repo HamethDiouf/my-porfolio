@@ -1262,8 +1262,8 @@ section:nth-child(odd) .animate.scroll,
         align-content: center;
     }
    
-    #exp .education-content{
-        /* margin-left: 2rem; */
+    #edu .education-content, #exp .education-content{
+        width: 45rem;
     }
 
     #edu .education-box{
