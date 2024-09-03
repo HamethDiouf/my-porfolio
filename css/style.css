@@ -1262,9 +1262,9 @@ section:nth-child(odd) .animate.scroll,
         align-content: center;
     }
    
-    #exp .education-content{
+    /* #exp .education-content{
         width: 45rem;
-        /* margin-left: 5rem; */
+        margin-left: 5rem;
     }
     .education-column{
         margin-left: 1rem;
@@ -1278,7 +1278,7 @@ section:nth-child(odd) .animate.scroll,
 
     .education-box{
         margin-left: -2rem;
-    }
+    } */
 }
 
 /* Keyframe animation */
