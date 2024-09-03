@@ -1224,6 +1224,93 @@ section:nth-child(odd) .animate.scroll,
     .skills-content{
         width: 15rem;
     }
+
+    .home, .project{
+        justify-content: center;
+    }
+    .home-content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .home-content h1{
+        font-size: 5rem;
+    }
+    .home p{
+        width: 40rem;
+    }
+    .home{
+        display: flex;
+        align-items: center;
+        padding: 0 9%;
+        background: url('../images/met.png') no-repeat;
+        background-position: right; 
+        margin-right: 1rem;
+    }
+    .project{
+        display: block;
+        align-items: center;
+        padding: 0 9%;
+        /* margin-right: 1rem; */
+    }
+    .list-1, .list-2{
+        display: flow-root;
+    }
+    .list-project{
+        width: 43rem;
+        height: 53rem;
+        margin-left: 3rem;
+    }
+    .list-project .btn:nth-child(2){
+        transform: translateX(12rem);
+    }
+    .list-project .btn{
+        margin-top: 2rem;
+    }
+   
+    .about-content p{
+        width: 44rem;
+    }
+    .skills{
+        align-items: center;
+        align-content: center;
+    }
+    .skills-box{
+        width: 45rem;
+        margin-left: -9rem; 
+    }
+    .skills-column h3.title {
+        margin-left: -9rem;
+    }
+    .education{
+        display: flow-root;
+        margin-left: -2rem;
+    }
+   
+    #edu .education-content{
+        width: 45rem;
+    }
+    #exp{
+        margin-top: 80rem;
+        margin-left: -53rem;
+        align-content: center; 
+        justify-content: center;
+    } 
+    #edu{
+        margin-left: 7rem;
+    }
+  
+    #exp .education-content{
+        width: 45rem;
+        margin-left: -2rem;
+    }
+    .education .heading{
+        margin-left: 18rem;
+    }
+    #exp-tl{
+        margin-left: -.1rem;
+    }
 }
 /* Keyframe animation */
 @keyframes homeCursorText {
