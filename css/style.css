@@ -1279,9 +1279,9 @@ section:nth-child(odd) .animate.scroll,
     /* #exp {
         margin-left: 1.5rem;
     } */
-    #exp-tl{
+    /* #exp-tl{
         margin-left: 1rem;
-    }
+    } */
 }
 
 /* Keyframe animation */
