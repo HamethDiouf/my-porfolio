@@ -1166,12 +1166,15 @@ section:nth-child(odd) .animate.scroll,
         align-content: center;
     }
    
-    #edu .education-content, #exp .education-content{
-        width: 45rem;
-    }
-    /* #edu .education-column{
-        margin-left: -15rem;
+    /* #edu .education-content, #exp .education-content{
+        width: 40rem;
     } */
+     .skills-row {
+        margin-left: 1rem;
+     }
+    .education-box, .skills-box{
+        width: 40rem;
+    }
   
     /* #edu h3.title{
         margin-left: -2rem;
