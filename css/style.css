@@ -1274,11 +1274,10 @@ section:nth-child(odd) .animate.scroll,
     } */
 
     .education h2.heading{
-        text-align: center;
-        justify-content: center;
+        margin-left: -1rem;
     }
-    #exp .education-content{
-        margin-left: 3rem;
+    #exp {
+        margin-left: 1.5rem;
     }
 }
 
