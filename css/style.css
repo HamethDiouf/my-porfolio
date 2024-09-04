@@ -1269,9 +1269,9 @@ section:nth-child(odd) .animate.scroll,
         margin-left: -4rem;
     }
   
-    /* #edu h3.title{
-        margin-left: -2rem;
-    } */
+    #edu h3.title{
+        margin-left: -1rem;
+    }
 
     /* .education h2.heading{
         margin-left: -2rem;
