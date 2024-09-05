@@ -1182,10 +1182,10 @@ section:nth-child(odd) .animate.scroll,
         /* margin-left: -2rem; */
     }
     .education .heading{
-        margin-left: -1.3rem;
+        /* margin-left: -1.3rem; */
     }
     #exp{
-        margin-left: -7rem;
+        margin-left: -15rem;
     }
 }
 
