@@ -1119,13 +1119,11 @@ section:nth-child(odd) .animate.scroll,
     .footer{
         display: block;
     }
-    .footer-text p,  .footer-icon{
+    .footer-text p, .footer-icon{
         text-align: center;
         margin-top: 2rem;
     }
-    .footer-icon{
-        text-align: center;
-    }
+   
 }
 
 
@@ -1172,17 +1170,14 @@ section:nth-child(odd) .animate.scroll,
      /* .skills-row {
         margin-left: 0;
      } */
-    .education-box, .skills-box{
+    /* .education-box, .skills-box{
         width: 40rem;
-    }
+    } */
     .education-row{
-        
+        width: 35rem;
     }
     .skills-row{
-        margin-left: -3rem;
-    }
-    .education-column{
-        width: 35rem;
+        margin-right: 10rem;
     }
   
 }
