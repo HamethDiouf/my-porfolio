@@ -1166,18 +1166,21 @@ section:nth-child(odd) .animate.scroll,
         align-content: center;
     }
    
-    .education-content, .skills-content{
+    /* .education-content, .skills-content{
         width: 40rem;
+    } */
+    #exp .education-content, #edu .education-content{
+        width: 35rem;
     }
     .skills-row{
         margin-left: -8rem;
-        width: 40rem;
+        width: 35rem;
     }
     #edu{
         margin-left: -5rem;
     }
     #exp{
-        margin-left: -10rem;
+        margin-left: -8rem;
     }
 }
 
