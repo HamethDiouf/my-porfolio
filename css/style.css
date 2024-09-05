@@ -1116,6 +1116,7 @@ section:nth-child(odd) .animate.scroll,
     .education-row{
         margin-left: 1.5rem;
     }
+    
     .footer{
         display: block;
     }
@@ -1164,17 +1165,8 @@ section:nth-child(odd) .animate.scroll,
         align-content: center;
     }
    
-    /* #edu .education-content, #exp .education-content{
-        width: 40rem;
-    } */
-     /* .skills-row {
-        margin-left: 0;
-     } */
-    /* .education-box, .skills-box{
-        width: 40rem;
-    } */
     .education-row, .skills-row{
-        width: 34rem;
+        width: 30rem;
     }
     .skills-row{
         margin-left: -12rem;
@@ -1183,7 +1175,7 @@ section:nth-child(odd) .animate.scroll,
         margin-left: -7rem;
     }
     #exp{
-        margin-left: 2rem;
+        margin-left: 5rem;
     }
 }
 
