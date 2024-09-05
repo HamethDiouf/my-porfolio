@@ -1177,10 +1177,10 @@ section:nth-child(odd) .animate.scroll,
         width: 35rem;
     }
     .skills-row{
-        margin-left: -7rem;
+        margin-left: -12rem;
     }
     #edu{
-        margin-right: 7rem;
+        margin-left: -5rem;
     }
   
 }
