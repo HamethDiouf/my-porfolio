@@ -1131,6 +1131,7 @@ section:nth-child(odd) .animate.scroll,
 @media(max-width: 400px) {
     .list-project{
         margin-left: -2rem;
+        width: 40rem;
     }
 
     .home, .project{
@@ -1166,16 +1167,17 @@ section:nth-child(odd) .animate.scroll,
     }
    
     .education-content, .skills-content{
-        width: 30rem;
+        width: 40rem;
     }
     .skills-row{
         margin-left: -8rem;
+        width: 40rem;
     }
     #edu{
         margin-left: -5rem;
     }
     #exp{
-        /* margin-left: 5rem; */
+        margin-left: -10rem;
     }
 }
 
