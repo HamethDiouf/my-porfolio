@@ -1116,6 +1116,16 @@ section:nth-child(odd) .animate.scroll,
     .education-row{
         margin-left: 1.5rem;
     }
+    .footer{
+        display: block;
+    }
+    .footer-text p,  .footer-icon{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .footer-icon{
+        text-align: center;
+    }
 }
 
 
@@ -1159,14 +1169,17 @@ section:nth-child(odd) .animate.scroll,
     /* #edu .education-content, #exp .education-content{
         width: 40rem;
     } */
-     .skills-row {
+     /* .skills-row {
         margin-left: 0;
-     }
+     } */
     .education-box, .skills-box{
         width: 40rem;
     }
-    .education-row{
-        margin-right: 3rem;
+    .education-row, .skills-row{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
   
 }
