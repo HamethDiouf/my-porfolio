@@ -1116,7 +1116,7 @@ section:nth-child(odd) .animate.scroll,
     .education-row{
         margin-left: 1.5rem;
     }
-    
+
     .footer{
         display: block;
     }
@@ -1165,8 +1165,8 @@ section:nth-child(odd) .animate.scroll,
         align-content: center;
     }
    
-    .education-row, .skills-row{
-        width: 30rem;
+    .education-content, .skills-content{
+        width: 35rem;
     }
     .skills-row{
         margin-left: -12rem;
