@@ -1175,11 +1175,14 @@ section:nth-child(odd) .animate.scroll,
     .education-box, .skills-box{
         width: 40rem;
     }
-    .education-row, .skills-row{
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
+    .education-row{
+        
+    }
+    .skills-row{
+        margin-left: -3rem;
+    }
+    .education-column{
+        width: 35rem;
     }
   
 }
