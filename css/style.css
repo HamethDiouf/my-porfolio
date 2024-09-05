@@ -1123,16 +1123,6 @@ section:nth-child(odd) .animate.scroll,
     .list-project{
         margin-left: -2rem;
     }
-    /* .skills-column h3.title{
-        margin-left: -10rem;
-    } */
-     .skills-row {
-        /* margin-left: 1rem; */
-     }
-    .skills-box{
-        width: 40rem;
-        /* margin-left: -10rem; */
-    }
 
     .home, .project{
         justify-content: center;
@@ -1170,25 +1160,15 @@ section:nth-child(odd) .animate.scroll,
         width: 40rem;
     } */
      .skills-row {
-        margin-left: 1rem;
+        margin-left: 0;
      }
     .education-box, .skills-box{
         width: 40rem;
     }
+    .education-row{
+        margin-right: 3rem;
+    }
   
-    /* #edu h3.title{
-        margin-left: -2rem;
-    } */
-
-    /* .education h2.heading{
-        margin-left: -2rem;
-    } */
-    /* #exp {
-        margin-left: 1.5rem;
-    } */
-    /* #exp-tl{
-        margin-left: 1rem;
-    } */
 }
 
 /* Keyframe animation */
