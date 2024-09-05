@@ -1110,7 +1110,7 @@ section:nth-child(odd) .animate.scroll,
         width: 45rem;
     }
     .education .heading{
-        margin-left: 18rem;
+        margin-left: 12.5rem;
     }
 
     .education-row{
@@ -1170,17 +1170,19 @@ section:nth-child(odd) .animate.scroll,
         width: 40rem;
     } */
     #exp .education-content, #edu .education-content{
-        width: 35rem;
+        width: 40rem;
     }
     .skills-row{
         margin-left: -8rem;
-        width: 35rem;
+    }
+    .skills-content{
+        width: 40rem;
     }
     #edu{
         margin-left: -5rem;
     }
     #exp{
-        margin-left: -8rem;
+        margin-left: -7rem;
     }
 }
 
