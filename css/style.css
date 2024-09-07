@@ -1156,8 +1156,7 @@ section:nth-child(odd) .animate.scroll,
         /* margin-left: -1.3rem; */
     }
     #exp{
-        margin-right: 0;
-        margin-left: 1rem;
+        margin-left: 1.9rem;
     }
 }
 
