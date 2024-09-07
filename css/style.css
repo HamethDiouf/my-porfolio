@@ -1020,7 +1020,7 @@ section:nth-child(odd) .animate.scroll,
     .home-content h1{
         font-size: 5rem;
     }
-    .home p{
+    .home-content p{
         width: 40rem;
     }
     .home{
@@ -1116,8 +1116,8 @@ section:nth-child(odd) .animate.scroll,
     .home-content h1{
         font-size: 5rem;
     }
-    .home p{
-        width: 40rem;
+    .home-content p, .about-content p{
+        width: 35rem;
     }
     .home{
         display: flex;
@@ -1152,7 +1152,7 @@ section:nth-child(odd) .animate.scroll,
         /* margin-left: -1.3rem; */
     }
     #exp{
-        margin-right: 25rem;
+        margin-right: 22rem;
     }
 }
 
