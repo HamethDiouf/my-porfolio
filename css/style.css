@@ -1146,13 +1146,13 @@ section:nth-child(odd) .animate.scroll,
         width: 38rem;
     }
     #edu{
-        margin-right: 2rem;
+        margin-right: 5rem;
     }
     .education .heading{
         /* margin-left: -1.3rem; */
     }
     #exp{
-        margin-right: 18rem;
+        margin-right: 10rem;
     }
 }
 
