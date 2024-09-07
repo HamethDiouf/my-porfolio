@@ -1101,6 +1101,7 @@ section:nth-child(odd) .animate.scroll,
 @media(max-width: 400px) {
     .home-content h1{
         font-size: 1rem;
+        color: #2dffff;
     }
     .list-project{
         margin-left: -2rem;
@@ -1156,10 +1157,7 @@ section:nth-child(odd) .animate.scroll,
     }
     #exp{
         margin-right: 0;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        text-align: center;
+        margin-left: 1rem;
     }
 }
 
