@@ -1099,15 +1099,6 @@ section:nth-child(odd) .animate.scroll,
 
 
 @media(max-width: 400px) {
-    .home-content h1{
-        font-size: 1rem;
-        color: #2dffff;
-    }
-    .list-project{
-        margin-left: -2rem;
-        width: 40rem;
-    }
-
     .home, .project{
         justify-content: center;
     }
@@ -1118,7 +1109,7 @@ section:nth-child(odd) .animate.scroll,
         text-align: center;
     }
     .home-content h1{
-        font-size: 5rem;
+        font-size: 3rem;
     }
     .home-content p, .about-content p{
         width: 35rem;
@@ -1156,7 +1147,12 @@ section:nth-child(odd) .animate.scroll,
         /* margin-left: -1.3rem; */
     }
     #exp{
-        margin-left: 1.9rem;
+        margin-left: 1.4rem;
+    }
+
+    .list-project{
+        margin-left: -2rem;
+        width: 40rem;
     }
 }
 
