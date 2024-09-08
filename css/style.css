@@ -100,9 +100,6 @@ section{
     animation: homeCursorText 6s linear infinite;
     animation-delay: 2s;
 }
-.home-content span{
-    color: #fff;
-}
 .home-content .text-animate h3 {
     font-size: 3.2rem;
     font-weight: 700;
@@ -1112,7 +1109,7 @@ section:nth-child(odd) .animate.scroll,
         text-align: center;
     }
     .home-content h1{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     .home-content p, .about-content p{
         width: 35rem;
@@ -1150,7 +1147,7 @@ section:nth-child(odd) .animate.scroll,
         /* margin-left: -1.3rem; */
     }
     #exp{
-        margin-left: -1.9rem;
+        margin-left: -10rem;
     }
 
     .list-project{
