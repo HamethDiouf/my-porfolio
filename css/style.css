@@ -1019,6 +1019,7 @@ section:nth-child(odd) .animate.scroll,
     }
     .home-content h1{
         font-size: 5rem;
+        width: 33rem;
     }
     .home-content p{
         width: 40rem;
@@ -1147,7 +1148,7 @@ section:nth-child(odd) .animate.scroll,
         /* margin-left: -1.3rem; */
     }
     #exp{
-        margin-right: 10rem;
+        margin-right: 8rem;
     }
 
     .list-project{
