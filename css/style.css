@@ -83,7 +83,10 @@ section{
     font-size: 5.6rem;
     font-weight: 700;
     line-height: 1.3;
-    color:#fff;
+    color: var(--main-color);
+}
+.home-content span{
+    color: #fff;
 }
 .home-content .text-animate{
     position: relative;
@@ -1109,7 +1112,7 @@ section:nth-child(odd) .animate.scroll,
         text-align: center;
     }
     .home-content h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .home-content p, .about-content p{
         width: 35rem;
@@ -1147,7 +1150,7 @@ section:nth-child(odd) .animate.scroll,
         /* margin-left: -1.3rem; */
     }
     #exp{
-        margin-left: 1.4rem;
+        margin-left: -1.9rem;
     }
 
     .list-project{
