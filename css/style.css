@@ -910,6 +910,12 @@ section:nth-child(odd) .animate.scroll,
 }
 
 @media(max-width: 768px) {
+    .home-content p{
+        width: 45rem;
+    }
+    .about-content p{
+        width: 45rem;
+    }
     .header {
         background: var(--bg-color);
     }
@@ -968,9 +974,6 @@ section:nth-child(odd) .animate.scroll,
         pointer-events: none;
         background: var(--bg-color);
         opacity: .6;
-    }
-    .about-content p{
-        width: 50rem;
     }
     .skills{
         align-items: center;
