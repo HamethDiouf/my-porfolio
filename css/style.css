@@ -1148,9 +1148,9 @@ section:nth-child(odd) .animate.scroll,
     #edu{
         margin-left: -3rem;
     }
-    .education .heading{
+    /* .education .heading{ */
         /* margin-left: -1.3rem; */
-    }
+    /* } */
     #exp{
         margin-right: 4rem;
     }
